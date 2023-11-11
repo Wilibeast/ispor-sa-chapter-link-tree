@@ -1,0 +1,129 @@
+:root {
+  --logoGrey: #a7a9ac;
+  --logoBrown: #716658;
+  --logoBlue: #25aae1;
+  --lighterGrey: #e0e0e0;
+  --darkerGrey: #c4c4c4;
+  --darkGrey:#383838;
+}
+
+.body {
+  background-color: var(--logoGrey);
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--logoBrown);
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none;
+}
+
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-wrap: wrap;
+  max-width: 90vw;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-button {
+  background-color: var(--lighterGrey);
+  border-color: var(--logoBlue);
+  margin: 0.75em;
+  width: 600px;
+  max-width: 90vw;
+  height: 4em;
+  text-wrap: pretty;
+  border-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.link-button:hover {
+  background-color: var(--darkerGrey);
+}
+
+.link-button:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-text {
+  color: black;
+  font-weight: 400;
+  font-size: large;
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.button-body {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  position: absolute;
+  margin: 5px;
+  margin-right: 0;
+  max-width: 3em;
+}
+
+.button-group {
+  max-width: 600px;
+}
+
+.grouped-button {
+  width: max-content;
+}
+
+.socials-icon {
+  margin: 3px;
+  max-width: 3em;
+}
+
+.image-container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  max-width: 90%;
+}
+
+#main-logo {
+  max-width: 100%;
+}
